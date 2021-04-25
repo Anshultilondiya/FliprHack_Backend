@@ -1,0 +1,13 @@
+# # Send Request
+# POST http://127.0.0.1:8000/api/auth/register
+# Content-Type: application/json
+
+# {
+#     "username": "John",
+#     "email": "john@example.com",
+#     "password": "1234"
+# }
+
+# Send Request
+POST http://127.0.0.1:8000/api/auth/logout
+Authorization: Token 64f074a47689e84c486a413e42c64fa77b3580475f7ba0f9e5166dede398a696
